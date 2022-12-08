@@ -1,0 +1,90 @@
+.app {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.selections-section {
+  margin-bottom: 1em;
+}
+
+.selections-section h1 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.selections-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selections-section li {
+  margin-bottom: 0.5em;
+}
+
+.score-section {
+  font-size: 2em;
+  margin: 1em 0;
+  color: #4caf50;
+}
+
+.question-section {
+  margin-bottom: 1em;
+}
+
+.question-count {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 0.5em;
+}
+
+.question-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover,
+button:focus {
+  background-color: #f5f5f5;
+  outline: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button.correct {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+button.correct:hover,
+button.correct:focus {
+  background-color: #e8f5e9;
+}
+
+button.incorrect {
+  border-color: #f44336;
+  color: #f44336;
+}
+
+button.incorrect:hover,
+button.incorrect:focus {
+  background-color: #fce4ec;
+}
